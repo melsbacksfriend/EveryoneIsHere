@@ -2,10 +2,14 @@
 A reverse-engineering tool used to look for size values in an array of data structures in a binary file
 
 # Usage (Linux):
+```
 ./EveryoneIsHere -f <frequency in bytes of value> -o <starting offset of values> -n <number of values> -s <size in bytes of value: 1-8> filename
+```
 
 # Usage (Windows):
+```
 EveryoneIsHere.exe -f <frequency in bytes of value> -o <starting offset of values> -n <number of values> -s <size in bytes of value: 1-8> filename
+```
 
 # Why the name?
 This tool was initially developed for reverse-engineering a format found in Switch games that should be like SSBU but aren't (Pokémon games on Switch).
